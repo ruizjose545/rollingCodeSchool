@@ -57,109 +57,103 @@ if (n1 == n2 && n1 == n3 ) {
  
 
 // 8.- Escribe un programa que pida un número y diga si es divisible por 2
-let n = parseInt(prompt("Ingrese un Nro Entero"));
+/*let n = parseInt(prompt("Ingrese un Nro Entero"));
 if (n % 2 == 0) {
-      document.write("El Nro ingresado es Divisible en 2");
+    document.write("El Número ingresado es Divisible en 2");
 }
 else {
-
-         document.write("El Nro Ingresado NO es Divisible en 2");
- }
+   document.write("El Número Ingresado NO es Divisible en 2");
+} */
 
 
 // 9.- Escribe un programa que pida una frase y escriba las vocales que aparecen
 // Nota: Tener en cuenta la función length y substring o charAt (developer mozilla)
 
-// let frase0 =  prompt("Ingrese una frase");
-// let frase = frase0.toLowerCase();
-// let i=0;
-// let longitudfrase = frase.length;
-// let contadorvocales=0;
+/*let frase = prompt('Escriba una palabra o frase');
 
-// while ( i < longitudfrase ) {
-//     if ( frase.substring(i, i+1) == "a" || frase.substring(i, i+1) == "e" || frase.substring(i, i+1) == "i" || frase.substring(i, i+1) == "o" || frase.substring(i, i+1) == "u") {
-//                 contadorvocales++;
-//     }
-//     i++;
-// }
-// document.write(" La Frase Ingresada tiene esta cantidad de vocales: " +contadorvocales)
+for (var i = 0; i < frase.length; i++) {
+    if (frase[i] == "a" || frase[i] == "e" || frase[i] == "i" || frase[i] == "o" || frase[i] == "u")
+    document.write(frase[i]+ "<br>")
+}/*
+
+
+
 
 // 10.- Escribe un programa que pida un número y nos diga si es divisible por 2, 3, 5 o 7 (sólo hay que comprobar si lo es por uno de los cuatro)
 
-// let dividendo = parseInt(prompt("Ingrese el Dividendo: "));    
-// let divisor = parseInt(prompt("Ingrese el Divisor: 2, 3, 5 o 7: "));
+ /*let dividendo = parseInt(prompt("Ingrese el Dividendo: "));    
+ let divisor = parseInt(prompt("Ingrese el Divisor: 2, 3, 5 o 7: "));
 
-// if (dividendo == "0") {
-//     document.write("El Nro Ingresado es CERO")
-// } else {
-//     switch (divisor) {
-//         case 0:
-//             document.write("El Divisor ingresado en CERO, lo cual es una indefinición")
-//             break;
-//         case 2:
-//             if (dividendo % 2 == 0) {
-//                 document.write("El Numero ingresado ES DIVISIBLE EN 2");
-//             } else {
-//                 document.write("El Numero ingresado NO ES DIVISIBLE EN 2");
-//             }
-//             break;
-//         case 3:
-//             if (dividendo % 3 == 0) {
-//                 document.write("El Numero ingresado ES DIVISIBLE EN 3");
-//             } else {
-//                 document.write("El Numero ingresado NO ES DIVISIBLE EN 3");
-//             }
-//             break;
-//         case 5:
-//             if (dividendo % 5 == 0) {
-//                 document.write("El Numero ingresado ES DIVISIBLE EN 5");
-//             } else {
-//                 document.write("El Numero ingresado NO ES DIVISIBLE EN 5");
-//             }
-//             break;
-//         case 7:
-//             if (dividendo % 7 == 0) {
-//                 document.write("El Numero ingresado ES DIVISIBLE EN 7");
-//             } else {
-//                 document.write("El Numero ingresado NO ES DIVISIBLE EN 7");
-//             }
-//             break;
+if (dividendo == "0") {
+     document.write("El Nro Ingresado es CERO")
+ } else {
+     switch (divisor) {
+         case 0:
+             document.write("El Divisor ingresado en CERO, lo cual es una indefinición")
+             break;
+         case 2:
+             if (dividendo % 2 == 0) {
+                 document.write("El Numero ingresado ES DIVISIBLE EN 2");
+             } else {
+                 document.write("El Numero ingresado NO ES DIVISIBLE EN 2");
+             }
+             break;
+         case 3:
+             if (dividendo % 3 == 0) {
+                 document.write("El Numero ingresado ES DIVISIBLE EN 3");
+             } else {
+                 document.write("El Numero ingresado NO ES DIVISIBLE EN 3");
+             }
+             break;
+         case 5:
+             if (dividendo % 5 == 0) {
+                 document.write("El Numero ingresado ES DIVISIBLE EN 5");
+             } else {
+                 document.write("El Numero ingresado NO ES DIVISIBLE EN 5");
+             }
+             break;
+         case 7:
+             if (dividendo % 7 == 0) {
+                 document.write("El Numero ingresado ES DIVISIBLE EN 7");
+             } else {
+                 document.write("El Numero ingresado NO ES DIVISIBLE EN 7");
+             }
+             break;
 
-//         default:
-//             alert("DIVISOR NO ESTÁ EN LAS OPCIONES INDICADAS");
-//     }
-// }
+         default:
+             alert("DIVISOR NO ESTÁ EN LAS OPCIONES INDICADAS");
+     }
+ }*/
 
 
 // 11.- Añadir al ejercicio anterior que nos diga por cuál de los cuatro es divisible (hay que decir todos por los que es divisible)
 
-// let dividendo = parseInt(prompt("Ingrese el Nro a Analizar: "));
+ /*let dividendo = parseInt(prompt("Ingrese el Nro a Analizar: "));
 
 
-// if (dividendo == "0") {
-//     document.write("EL NUMERO INGRESADO ES CERO '\n' ")
+ if (dividendo == "0") {
+     document.write("EL NUMERO INGRESADO ES CERO '\n' ")
 
-// } else {
-//     document.write("El Numero ingresado ES DIVISIBLE en: ");
-//     document.write("<br>");
+ } else {
+     document.write("El Numero ingresado ES DIVISIBLE en: ");
+     document.write("<br>");
 
 
-//     if (dividendo % 2 == 0) {
-//         document.write("2 <br>");
-//     }
+     if (dividendo % 2 == 0) {
+         document.write("2 <br>");
+     }
+     if (dividendo % 3 == 0) {
+         document.write("3 <br>");
+ }
 
-//     if (dividendo % 3 == 0) {
-//         document.write("3 <br>");
-//     }
+     if (dividendo % 5 == 0) {
+         document.write("5 <br>");
+     }
 
-//     if (dividendo % 5 == 0) {
-//         document.write("5 <br>");
-//     }
-
-//     if (dividendo % 7 == 0) {
-//         document.write("7 <br>");
-//     }
-// }
+     if (dividendo % 7 == 0) {
+         document.write("7 <br>");
+     }
+ }*/
 
      
     
