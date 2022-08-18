@@ -9,7 +9,6 @@ while (confirm("Quiere ingresar un numero?")) {
         alert("EL valor ingresado debe ser un numero, vuelva a intentar");
     } else {
         suma = suma + num;
-        
     }
   }
   document.write("<h2> El resultado es: " + suma + "</h2>");
