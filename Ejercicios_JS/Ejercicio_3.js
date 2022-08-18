@@ -3,9 +3,10 @@
 Nota: usar confirm() https://www.w3schools.com/jsref/met_win_confirm.asp */
 
 let texto = ""
-while (confirm("Ingrese un texto")) {
-    
-}
+while (confirm("Quiere ingresar un texto?")) {
+    texto = texto + prompt("Ingrese una palabra") + '-'
+  }
+document.write(texto)
 
 
 
