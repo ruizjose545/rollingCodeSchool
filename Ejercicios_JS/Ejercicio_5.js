@@ -8,8 +8,19 @@ Según el resultado, de 0 a 22, le corresponderá una letra de las siguientes:  
 Si lo introducido no es un número deberá indicarse con un alert y volver a preguntar.
 Deberá de repetirse el proceso hasta que el usuario pulse «cancelar». */
 
-let num = 0
-let letra = ""
-while (confirm("Desea ingresar un DNI??"))
 
+let letra = ['T','R','W','A','G','M','Y','F','P','D','X','B','N','J','Z','S','Q','V','H','L','C','K','E'];
+while (confirm("Desea ingresar un DNI??")){
 let dni=parseInt(prompt("Ingrese el numero del DNI"))
+
+
+if (isNaN(dni)) {
+    alert("El DNI debe ser solo con numero")
+    
+} else if(dni >= 0 && dni <=99999999) {
+    let resto = Math.round(dni % 23)
+    document.write(letra)
+    document.write(`<br> ${resto}`) 
+    document.write(`<br> ${letra[resto]}` )
+}
+}
