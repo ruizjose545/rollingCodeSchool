@@ -2,3 +2,11 @@
 // entre cada carácter sin usar el método replace. Por ejemplo, 
 // si tecleo “hola qué tal”, deberá salir “h-o-l-a- -q-u-e- -t-a-l”.
 
+let texto = prompt("Ingrese un texto")
+
+
+for (let i = 0; i < texto.length; i++) {
+   let caracter = texto.charAt(i) +"-"
+   document.write(caracter)
+}
+
