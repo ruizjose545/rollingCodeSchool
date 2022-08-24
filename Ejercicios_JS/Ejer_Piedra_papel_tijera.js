@@ -17,19 +17,19 @@ function quien_gana(eleccion_usuario, eleccion_computadora) {
         if (eleccion_usuario === 'papel' && eleccion_computadora === 'piedra') {
             return 'tu ganas'
         }
-        if eleccion_usuario === 'papel' && eleccion_computadora === 'tijera') {
+        if (eleccion_usuario === 'papel' && eleccion_computadora === 'tijera') {
             return 'tu pierdes' 
         }
-        if eleccion_usuario === 'piedra' && eleccion_computadora === 'papel') {
+        if (eleccion_usuario === 'piedra' && eleccion_computadora === 'papel') {
             return 'tu pierdes' 
         }
-        if eleccion_usuario === 'piedra' && eleccion_computadora === 'tijera') {
+        if (eleccion_usuario === 'piedra' && eleccion_computadora === 'tijera') {
             return 'tu ganas' 
         }
-        if eleccion_usuario === 'tijera' && eleccion_computadora === 'papel') {
+        if (eleccion_usuario === 'tijera' && eleccion_computadora === 'papel') {
             return 'tu ganas' 
         }
-        if eleccion_usuario === 'tijera' && eleccion_computadora === 'piedra') {
+        if (eleccion_usuario === 'tijera' && eleccion_computadora === 'piedra') {
             return 'tu pierdes' 
         }
     }
